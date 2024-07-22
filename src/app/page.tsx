@@ -21,7 +21,7 @@ export default async function Home() {
       {data.map((post: any) => (
         <div key={post._id} className="shadow-md my-4 px-2">
           {/* Title  */}
-          <h1 className="md:text-4xl py-3 text-3xl text-center">
+          <h1 className="md:text-4xl py-3 text-2xl text-center">
             {post.title}
           </h1>
           {/* Image  */}
